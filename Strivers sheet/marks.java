@@ -1,10 +1,10 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class marks {
+class marks {
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        int marks = sc.nextInt();
+        Scanner input = new Scanner(System.in);
+         System.out.print("Enter an integer: ");
+        int marks = input.nextInt();
         if(marks >= 90){
             System.out.println("Grade A");
         }else if (marks >= 70){
@@ -16,8 +16,8 @@ public class marks {
         }else {
             System.out.println("Fail");
         }
-
-        sc.close();
-    }
     
+    }
 }
+    
+
