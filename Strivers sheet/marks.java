@@ -16,7 +16,7 @@ class marks {
         }else {
             System.out.println("Fail");
         }
-    
+    input.close();
     }
 }
     
