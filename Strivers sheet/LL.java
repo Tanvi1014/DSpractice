@@ -5,6 +5,7 @@ public class LL {
         String data;
      Node next;
      
+     
 
      Node(String data ){
         this.data = data;
@@ -25,22 +26,9 @@ public class LL {
         head = newNode;
 
       }
-// add last
-public void addLast(String data) {
-    Node newNode = new Node(data);
-    if(head == null){
-            head = newNode;
-            return;
 
-        }
 
-        Node cuurNode = head;
-        while(currNode.next != null) {
-            currNode = currNode.next;
-
-        }
-        currNode.next = newNode;
-}
+        
 
      //print
      public void printList(){
