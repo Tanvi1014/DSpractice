@@ -2,7 +2,7 @@ public class orderagnosticBS {
     public static void main(String[] args) {
         
     }
-    static int orderAgnosticBS(int arr[] , int target){
+    static int orderAgnosticBS(int arr[] , int target , int start){
         int s = 0; 
         int end = arr.length - 1;
 
@@ -24,21 +24,23 @@ public class orderagnosticBS {
                 start = mid + 1;
             }else {
                 return mid;
-            }else{
+            }
+            
+            if(! isAsc) {
                 if(target >arr[mid]){
                 end = mid - 1;
-            }else  (target < arr[mid]) {
+            }else {
                 start = mid + 1;
             }
             }
             }
 
             
-            
+        }
         
 
         return -1;
-    }
+        }
     
     }
-}
+
