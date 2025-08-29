@@ -6,7 +6,7 @@ public class orderagnosticBS {
         int s = 0; 
         int end = arr.length - 1;
 
-        //find whether the arr is asc or desc
+        
         boolean isAsc;
         if(arr[start] <arr[end ]){
             isAsc = true;

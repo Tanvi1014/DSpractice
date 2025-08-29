@@ -12,7 +12,7 @@ public class highestel {
                 map.put(numbers, 1);
             }
         }
-        for(int i = 0; i <   ; i++){
+        for(int i = 0; i < number.length  ; i++){
             if(i > i+ 1 ){
                 System.out.println("highest element" + i);
             }else{
