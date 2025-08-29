@@ -13,6 +13,13 @@ public class rotatearr {
         Collections.rotate(list,1);
         System.out.println(list);
 
+        
+Integer[] arr = list.toArray(new Integer[0]);
+
+      sc.close();
+
+
+
     }
     
 }
