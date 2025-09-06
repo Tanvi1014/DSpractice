@@ -1,6 +1,6 @@
 import java.util.*;
 
-import javax.management.RuntimeErrorException;
+//import javax.management.RuntimeErrorException;
 class stackqueue {
     Queue<Integer> q = new LinkedList<>();
     public void push(int x){
