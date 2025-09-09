@@ -1,4 +1,4 @@
-import java.util.LinkedList;
+import java.util.*;
 
 public class LLaddone {
     public static void main(String[] args) {
@@ -8,6 +8,7 @@ public class LLaddone {
         list.add(3);
         System.out.println("the original list -->" + list);
         
+
     }
     
 }
