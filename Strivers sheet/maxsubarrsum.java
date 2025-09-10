@@ -10,6 +10,7 @@ public class maxsubarrsum {
              maxSum = Math.max(currSum, maxSum);
             }
         }
+        System.out.println(maxSum);
         
     }
     
