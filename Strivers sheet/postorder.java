@@ -1,6 +1,5 @@
-//import java.util.*;
-
-public class inorder {
+public class postorder {
+   
     static class Node {
         int data;
         Node left;
@@ -28,14 +27,13 @@ public class inorder {
 
             return newNode;
         }
-        public static void inorder(Node root) {
+        public static void postorder(Node root) {
             if (root == null) {
                 return;
             }
-            
-            inorder(root.left);
-            System.out.println(root.data +" ");
-            inorder(root.right);
+            postorder(root.left);
+            postorder(root.right);
+            System.out.println(root.data + " ");
         }
     }
 
@@ -45,7 +43,9 @@ public class inorder {
         Node root = BinaryTree.buildTree(nodes);
 
         System.out.print("Preorder Traversal: ");
-        BinaryTree.inorder(root);
+        BinaryTree.postorder(root);
     }
 }
+
+    
 
