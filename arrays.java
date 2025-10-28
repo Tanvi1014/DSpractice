@@ -5,8 +5,8 @@ public class arrays {
         for(int num : arr){
             System.out.println(num + " ");
         }
-        int[][] nums = new int[][];
         
+
 
     }
     
